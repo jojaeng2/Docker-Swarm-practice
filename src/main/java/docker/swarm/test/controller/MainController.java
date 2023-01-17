@@ -12,6 +12,7 @@ public class MainController {
   @GetMapping("/hello")
   public String getRequest() {
     System.out.println("Hello");
+    System.out.println("V2 Deploy");
     return "Hello world!";
   }
 }
